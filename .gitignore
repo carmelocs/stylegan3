@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv/
+.env
+.python-version
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.log
+*.tmp
+*.bak
+*.orig
+*.rej
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data & Generated Outputs
+data/
+generated/
+training-runs/
+metrics/
+viz/
+
+# Model Checkpoints (Large Files)
+*.pkl
+*.pt
+*.pth
+*.bin
+*.onnx
+
+# Docker
+docker-compose.yml
+Dockerfile
+
+# Environment
+environment.yml
+conda.lock
+
+# Logs
+logs/
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Temporary Files
+*~
